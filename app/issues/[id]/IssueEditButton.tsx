@@ -10,7 +10,7 @@ const IssueEditButton = ({ issueId }: { issueId: number }) => {
   return (
     <Button
       className='flex items-center gap-2'
-      onClick={() => router.push(`/issues/${issueId}/edit`)}
+      onClick={() => router.push(`/issues/edit/${issueId}`)}
     >
       <Pencil2Icon />
       Edit Issue
